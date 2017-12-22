@@ -6,13 +6,14 @@ import {HomepageComponent} from './homepage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomepageComponent]
 })
 export class AppModule {
 }
