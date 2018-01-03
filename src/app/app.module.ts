@@ -11,7 +11,8 @@ import {AppRoutingModule} from './app-routing.module';
     HomepageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [HomepageComponent]
